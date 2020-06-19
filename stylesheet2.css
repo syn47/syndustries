@@ -1,0 +1,976 @@
+html, body {
+	background-color: #white;
+	font-family: Arial, Helvetica, Palatino, sans-serif, Lucida Sans Unicode;
+	margin: 0;
+}
+
+#desc {
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  font-family:Times;
+}
+
+#title {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-family:Times;
+  font-style:italic;
+}
+
+h1 + h2 {
+  margin-top: -50px; 
+
+} 
+
+
+.maintitle {
+  width: 100%;
+  background-color:#333;
+  margin-top: 0px;
+  border: 0;
+  position: relative;
+  top:-40px;
+}
+
+
+.maintitle + nav {
+  margin-top: -62px;
+
+}
+
+
+.merch {
+  color: black;
+  font-style: italic;
+  position:absolute;
+  left:700px;
+  bottom:400px;
+}
+
+#title:hover {
+  color: orange;
+}
+
+#title a{
+  text-decoration: none;
+  color: #ffdd25;
+}
+
+#title a:hover {
+  color: orange;
+}
+
+
+#copyright {
+  font-size: 11px;
+  position:relative;
+  left:790px;
+}
+
+#container {
+  position: absolute;
+  min-height: 100%;
+  overflow: hidden;
+  left:152px;
+  width:84%;
+  display:table;
+}
+
+.main {
+  overflow: auto;
+  padding-bottom: 0px;
+  min-height:100%;
+}
+
+.explanation{
+  font-size:18px;
+  text-decoration:none;
+  width: 33%;
+  margin-left: 5px;
+}
+
+.bold-gold{
+  color: #cba613;
+  font-weight: bold;
+  margin-top:-15px;
+  font-size:20px;
+  margin-left: 5px;
+  width: 33%;
+  margin-bottom:-15px;
+  font-family:Helv;
+}
+
+.gametitle{
+  font-size: 35px;
+  font-family:Helv;
+  color:#ffdd25;
+  font-weight: bold;
+  margin-left:5px;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  white-space:nowrap;
+}
+
+nav .navbar>li{
+  display:inline-block;
+  margin-left:-5px;
+}
+
+nav a{
+  margin:0px;
+  text-align:left;
+  padding:12px 171px 12px 170px;
+  background:#333;
+  color:white;
+  text-decoration:none;
+  position:relative;
+  display:block;
+}
+
+nav li:hover>a{
+  background:#ffdd25;
+  color:black;
+}
+
+nav {
+  position:center;
+}
+
+.subMenu, nav .superSubMenu, nav .superSuperSubMenu, nav .superDuperSubMenu{
+  position: absolute;
+  display:none;
+  z-index:1000;
+
+}
+
+nav .navbar>li:hover .subMenu, nav .subMenu>li:hover>.superSubMenu, nav .superSubMenu>li:hover>.superSuperSubMenu, nav .superSuperSubMenu>li:hover>.superDuperSubMenu{
+  display:block;
+  border:1px solid black;
+}
+
+nav .superSubMenu{
+  top:-2px;
+  right:1px;
+  transform:translate(100%,0);
+}
+
+nav .superSuperSubMenu{
+  top:-2px;
+  right:1px;
+  transform:translate(100%,0);
+}
+
+nav .superDuperSubMenu{
+  top:-2px;
+  right:1px;
+  transform:translate(100%,0);
+}
+
+nav .subMenu li{
+  position:relative;
+  border-top:1px solid #575f6a;
+  border-bottom:1px solid #6b727c;
+}
+
+.goldbar{
+  background-color:#ffdd25;
+  width:100%;
+  height:250px;
+  text-align:center;
+  text-transform:lowercase;
+}
+
+.prove{
+  color:black;
+  font-size:90px;
+  position:relative;
+  top:75px;
+  font-style:italic;
+  font-weight:bold;
+  font-family:Times;
+}
+
+.rectangle {
+  position:absolute;
+  border:2px solid black;
+  top:200px;
+  left:200px;
+  padding-top:400px;
+  padding-right:300px;
+  background-color:#fffff1;
+}
+
+.rectangle2 {
+  position:absolute;
+  border:2px solid black;
+  top:200px;
+  left:800px;
+  padding-top:400px;
+  padding-right:300px;
+  background-color:#fffff1;
+}
+
+.rectangle3 {
+  position:absolute;
+  border:2px solid black;
+  top:200px;
+  left:1400px;
+  padding-top:400px;
+  padding-right:300px;
+  background-color:#fffff1;
+}
+
+.text{
+  position:absolute;
+  bottom:300px;
+  left:100px;
+}
+
+.twitchname{
+  position:relative;
+  bottom:393px;
+  left:22px;
+  font-style:none;
+  color:black;
+  font-weight:bold;
+  font-size:22px;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+a:visited{
+  text-decoration: none
+}
+
+footer{
+  width:100%;
+  background-color:#fffadd;
+  height: 20px;
+  position:relative;
+  display:table-footer-group;
+}
+
+
+.twitchlogo{
+  position:relative;
+  left:1552px;
+  top:0px;
+}
+
+.twitterlogo{
+  position: relative;
+  left:1515px;
+  top:0px;
+}
+
+.discordlogo{
+  position: relative;
+  left:1474px;
+  top:0px;
+
+}
+
+.gamer{
+  color:black;
+  font-size:50px;
+  top:40px;
+  right:0px;
+  position:relative;
+  font-family:impact;
+}
+
+.lifestyle{
+  color:#534600;
+  font-size:50px;
+  top:40px;
+  right:0px;
+  position:relative;
+  font-family:impact;
+  font-style:italic;
+}
+
+.recent{
+  position: relative;
+  bottom:10px;
+}
+
+.synphoto{
+  position:relative;
+  margin-top:11px;
+  margin-bottom:30px;
+  font-size:14px;
+}
+
+#pagetop{
+  width:100%;
+  background-color:#aeaeae;
+  height:40px;
+  position:absolute;
+  top:0px;
+}
+
+.FAQtitle{
+  font-family:impact;
+  font-weight:bold;
+  font-size:70px;
+  font-style:italic;
+  position:relative;
+  top:40px;
+}
+
+#FAQpart{
+  margin-top:150px;
+  margin-bottom:100px;
+}
+
+.bold{
+  font-weight:bold;
+}
+
+.click-here{
+  color:orange;
+  text-decoration: underline;
+}
+
+.synDesc{
+  text-align:center;
+  font-size:18px;
+}
+
+.goldbarvertical1{
+  background-color:#ffffff;
+  width:33.25%;
+  height:822px;
+  text-align:center;
+  float:right;
+  border:1px black solid;
+  background-image: url("images/reforged.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.goldbarvertical2{
+  background-color:green;
+  width:33.25%;
+  height:822px;
+  float:right;
+  text-align:center;
+  border:1px black solid;
+  background-image: url("images/rocketleague.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.greybarvertical{
+  background-color:white;
+  width:33.25%;
+  height:822px;
+  text-align:center;
+  float:right;
+  border-top:1px black solid;
+  border-bottom:1px black solid;
+  background-image: url("images/ace.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box-wrap{
+  float:right;
+  width:100%;
+  margin-top:5px;
+}
+
+.achievementstitle{
+  color:black;
+  font-size:40px;
+  position:relative;
+  top:70px;
+  font-weight:bold;
+  font-family:Times;
+}
+
+.achievementstitle2{
+  color:black;
+  font-size:38px;
+  position:relative;
+  top:70px;
+  font-weight:bold;
+  font-family:Times;
+}
+
+.aceachievements{
+  color:#ffec84;
+  list-style:none;
+  text-align:center;
+  position:relative;
+  top:360px;
+  font-size:21px;
+  font-style:italic;
+  font-family:Helvetica;
+}
+
+.reforgedachievements{
+  color:black;
+  list-style:none;
+  text-align:center;
+  position:relative;
+  top:360px;
+  font-size:21px;
+  font-style:italic;
+  font-family:Helvetica;
+}
+
+.rlachievements{
+  color:#ffec84;
+  list-style:none;
+  text-align:center;
+  position:relative;
+  top:330px;
+  font-size:21px;
+  font-style:italic;
+  font-family:Helvetica;
+}
+
+.box{
+  width: 20%;
+  height:750px;
+  border:3px black;
+  border-style: solid;
+  float:right;
+  margin:5px;
+  font-size:20px;
+  margin-right:190px;
+}
+
+.boxch{
+  width: 20%;
+  height:750px;
+  border:3px black;
+  border-style: solid;
+  float:right;
+  margin:5px;
+  font-size:20px;
+  margin-right:440px;
+}
+
+.category{
+  font-weight:bold;
+  text-decoration:underline;
+  font-size:22px;
+  margin-left:5px;
+}
+
+.aboutTitle{
+  color:black;
+  font-weight: bold;
+  font-size:26px;
+  position:relative;
+  left:75px;
+  top:15px;
+  font-family:impact;
+}
+
+.goldthing{
+  width:60px;
+  height:7px;
+  border-radius:25px;
+  background-color:gold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mapimage{
+  margin-top:5px;
+  margin-left:184px;
+  height:533px;
+  width:900px;
+  display:inline;
+  background-image:url(images/echo.jpg);
+  float:left;
+  border:3px solid black;
+}
+
+.mapname{
+  color:gold;
+  font-size:110px;
+  font-weight:bolder;
+  font-style:italic;
+  position:relative;
+  left:200px;
+  top:185px;
+  font-family:impact;
+  text-transform: lowercase;
+}
+
+.mapimagets{
+  margin-top:5px;
+  margin-left:184px;
+  height:751px;
+  width:738px;
+  display:inline;
+  background-image:url(images/terenas.jpg);
+  float:left;
+  border:3px solid black;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.mapnamets{
+  color:gold;
+  font-size:110px;
+  font-weight:bolder;
+  font-style:italic;
+  position:relative;
+  left:23px;
+  top:300px;
+  font-family:impact;
+  text-transform: lowercase;
+}
+
+.mapimagelr{
+  margin-top:5px;
+  margin-left:184px;
+  height:752px;
+  width:872px;
+  display:inline;
+  background-image:url(images/refuge.jpg);
+  float:left;
+  border:3px solid black;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.mapnamelr{
+  color:gold;
+  font-size:110px;
+  font-weight:bolder;
+  font-style:italic;
+  position:relative;
+  left:180px;
+  top:260px;
+  font-family:impact;
+  text-transform: lowercase;
+}
+
+.mapimageaz{
+  margin-top:5px;
+  margin-left:140px;
+  height:750px;
+  width:937px;
+  display:inline;
+  background-image:url(images/amazonia.jpg);
+  float:left;
+  border:3px solid black;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.mapnameaz{
+  color:gold;
+  font-size:110px;
+  font-weight:bolder;
+  font-style:italic;
+  position:relative;
+  left:240px;
+  top:230px;
+  font-family:impact;
+  text-transform: lowercase;
+}
+
+.opinionaz{
+  width:55.7%;
+  height:206px;
+  border:3px black solid;
+  display:inline-block;
+  margin-top:5px;
+  margin-left:145px;
+}
+
+.mapimageni{
+  margin-top:5px;
+  margin-left:140px;
+  height:668px;
+  width:900px;
+  display:inline;
+  background-image:url(images/northern.jpg);
+  float:left;
+  border:3px solid black;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.mapnameni{
+  color:gold;
+  font-size:110px;
+  font-weight:bolder;
+  font-style:italic;
+  position:relative;
+  left:100px;
+  top:226px;
+  font-family:impact;
+  text-transform: lowercase;
+}
+
+.mapimagech{
+  margin-top:5px;
+  margin-left:140px;
+  height:750px;
+  width:692px;
+  display:inline;
+  background-image:url(images/concealed.jpg);
+  float:left;
+  border:3px solid black;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.mapnamech{
+  color:gold;
+  font-size:110px;
+  font-weight:bolder;
+  font-style:italic;
+  position:relative;
+  right:7px;
+  top:275px;
+  font-family:impact;
+  text-transform: lowercase;
+}
+
+.mapimagetr{
+  margin-top:5px;
+  margin-left:184px;
+  height:750px;
+  width:817px;
+  display:inline;
+  background-image:url(images/turtle.jpg);
+  float:left;
+  border:3px solid black;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.mapnametr{
+  color:gold;
+  font-size:110px;
+  font-weight:bolder;
+  font-style:italic;
+  position:relative;
+  left:155px;
+  top:270px;
+  font-family:impact;
+  text-transform: lowercase;
+}
+
+.mapimagetm{
+  margin-top:5px;
+  margin-left:140px;
+  height:750px;
+  width:814px;
+  display:inline;
+  background-image:url(images/twisted.jpg);
+  float:left;
+  border:3px solid black;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.mapnametm{
+  color:gold;
+  font-size:106px;
+  font-weight:bolder;
+  font-style:italic;
+  position:relative;
+  left:0px;
+  top:290px;
+  font-family:impact;
+  text-transform: lowercase;
+}
+
+.opinion{
+  width:55.7%;
+  height:206px;
+  border:3px black solid;
+  display:inline-block;
+  margin-top:5px;
+  margin-left:185px;
+}
+
+.eiopi{
+  position:relative;
+  top:15px;
+  left:6px;
+  font-weight:bold;
+  font-size:22px;
+  font-family:verdana;
+}
+
+.tr2opi{
+  position:relative;
+  top:15px;
+  left:6px;
+  font-weight:bold;
+  font-size:21px;
+  font-family:verdana;
+}
+
+.chopi{
+  position:relative;
+  top:4px;
+  left:6px;
+  font-weight:bold;
+  font-size:21px;
+  font-family:verdana;
+}
+
+.tmopi{
+  position:relative;
+  top:4px;
+  left:6px;
+  font-weight:bold;
+  font-size:20px;
+  font-family:verdana;
+}
+
+.thumbs{
+  position:relative;
+  top:120px;
+  left:70px;
+}
+
+.pay {
+  font-size: 75px;
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:30px;
+  font-family:Times;
+  font-weight:bold;
+}
+
+.coachingdesc{
+  font-size:21px;
+  text-align:center;
+  margin: 30px 0px 30px 0px;
+  font-weight:bold;
+  font-family:Times;
+  line-height:2rem;
+}
+
+.coachingbox{
+  width:23.513%;
+  height:200px;
+  border:2px dotted gold;
+  float:right;
+  border-radius:10px;
+  margin:70px 10px;
+
+}
+
+.quote{
+  line-height:1.5rem;
+  font-size:18px;
+  text-align:center;
+}
+
+.pricebox{
+  width:20%;
+  height:300px;
+  border:2px solid black;
+  float:right;
+  border-radius:10px;
+  margin:80px 315px 80px 10px
+}
+
+.price{
+  line-height:1.5rem;
+  font-size:18px;
+  text-align:center;
+}
+
+.coachtitle{
+  font-weight:bold;
+  text-decoration:underline;
+
+}
+
+.offer{
+  text-align:left;
+  float:left;
+  margin-left:10px;
+  line-height:1.5rem;
+
+}
+
+.what{
+  display:inline-block;
+  font-size:14px;
+  line-height:1.3rem;
+  margin-left:7px;
+  font-family:Helvetica;
+}
+
+
+div.coaching-price-container {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 100%;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-family:Times;
+  font-style:italic;
+  color:gold;
+  margin-bottom:95px;
+  margin-top:95px;
+}
+
+.goldthingbottom{
+  width:60px;
+  height:7px;
+  border-radius:25px;
+  background-color:gold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:70px;
+}
+
+.contactsyn{
+  font-size:20px;
+  text-align:center;
+  padding-bottom:45px;
+}{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
+
+{
+
+}
